@@ -1,0 +1,122 @@
+@import "style.css";
+
+body {
+    background-color: rgb(19, 19, 19);
+    color: white;
+}
+
+/* Barra de Navegação */
+
+nav {
+    color: white;
+    background-color: rgb(39, 39, 39);
+}
+
+nav a {
+    color: #ffff;
+}
+
+nav ul li a {
+    color: #ffff;
+}
+
+
+/* Imagem Capa */
+.img-capa {
+    background-color: rgba(31, 31, 31, 0.877);
+}
+/* Imagem Capa */
+
+
+
+/* Imagems */
+
+.img > div {
+    background-color: rgb(32, 32, 32);
+}
+/* Imagems */
+
+
+/* Tabela Comparativo */
+
+.table-comparativo tr:nth-child(even) {
+    background-color: #292929;
+}
+
+/* Tabela Comparativo */
+
+/* Tabela Tradicional */
+.table-default thead {
+    background-color: rgb(56, 54, 54);
+    color: white;
+}
+.table-default tbody {
+    background-color: rgb(34, 33, 33);
+    font-weight: 500;
+}
+
+/* Tabela Comparativo */
+
+/* Lista */
+
+.list a {
+    color: black;
+}
+
+.list-li {
+    color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.055);
+    background-image: radial-gradient(circle at center,rgb(65, 63, 63) 70%, rgba(231, 231, 231, 0.096));
+    box-shadow:0 5px 8px 0 rgba(255, 255, 255, 0.2),0 3px 10px 0 rgba(255, 255, 255, 0.19);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.list-li:hover {
+    box-shadow:0 10px 16px 0 rgba(255, 255, 255, 0.322),0 6px 20px 0 rgba(119, 113, 113, 0.336);
+}
+
+/* Lista */
+
+/* Link */
+.link {
+    color: rgb(65, 65, 202);
+}
+
+.img-link a, .img-link-home a{
+    color: rgb(158, 158, 247);
+}
+
+.img-link > div , .img-link-home{
+    box-shadow:0 5px 8px 0 rgba(77, 77, 77, 0.2),0 3px 10px 0 rgba(128, 127, 127, 0.19);
+    transition: box-shadow 0.3s ease-in-out;
+}
+.img-link > div:hover, .img-link-home:hover{
+    box-shadow:0 10px 16px 0 rgba(173, 173, 173, 0.322),0 6px 20px 0 rgba(5, 45, 97, 0.336);
+}
+
+/* Link */
+
+
+/* switch button*/
+
+.switch-toggle {
+    background-color: rgb(136, 136, 136);
+    box-shadow: 0px 0px 3px 0px white;
+}
+
+.switch-toggle label {
+    color: black;
+    transition: background-color 0.5s;
+}
+
+.switch-toggle label.selected {
+    background-image: linear-gradient( 90deg, rgb(34, 0, 97) 0%, rgb(15, 3, 126) 35%, rgb(8, 63, 167) 100% );;
+    color: white;
+}
+
+.switch-toggle label:hover {
+    background-color: rgb(223, 223, 223);
+}
+
+/* switch button*/
+

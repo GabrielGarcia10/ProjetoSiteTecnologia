@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <script src="js/script.js"></script>
+    <!--Contornar bug visual da rederização de alguns navegadores-->
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!---->
+    <link id="stylePage" rel="stylesheet" type="text/css" href="css/styleDark.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre | TechLink</title>
+</head>
+
+<body>
+    <!-- Menu Superior -->
+    <nav>
+        <div class="nav-layer1">
+            <a href="index.html"><img src="imagens/Logo.png" alt="Imagem Logo" />TechLink</a>
+            <div class="nav-reverse">
+                <div class="btn-navHamburguer" onclick="btn_navHamburguerClickEvent(this)">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>        
+                </div>
+            </div>
+        </div>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="artigos.html">Artigos</a></li>
+            <li><a href="sobre.html" style="text-decoration: overline;">Sobre</a></li>
+        </ul>
+        <div class="nav-reverse nav-interno">
+            <div id="switch_theme" class="switch-toggle">
+                <label for="switch_theme_light"><input onclick="switch_themeClickEvent()" name="switch_theme" id="switch_theme_light" value="L" type="radio">Light</label>
+                <label for="switch_theme_auto"><input onclick="switch_themeClickEvent()" name="switch_theme" id="switch_theme_auto" value="A" type="radio" checked>Auto</label>
+                <label for="switch_theme_dark"><input onclick="switch_themeClickEvent()" name="switch_theme" id="switch_theme_dark" value="D" type="radio">Dark</label>
+            </div>
+        </div>
+    </nav>
+    <!-- Menu Superior -->
+
+    <!-- Página -->
+    <main>
+
+        <h1>Sobre:</h1>
+
+        <table width="100%">
+            <tbody>
+                <tr>
+                    <th colspan="2">
+                        <div class="list">
+                            <li class="list-li align-center text-size-large" style="padding: 20px; margin-right: 10px;">
+                                Trabalho Tecnologias para a Internet I - N3</li>
+                        </div>
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                        <div class="list">
+                            <li class="list-li" style="padding: 20px; margin-right: 10px;">Nome: </li>
+                        </div>
+                    </th>
+                    <td>
+                        <div class="list">
+                            <li class="list-li align-center" style="padding: 20px;">Gabriel Rodrigues Garcia</li>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr>
+                    <th>
+                        <div class="list">
+                            <li class="list-li" style="padding: 20px; margin-right: 10px;">RA: </li>
+                        </div>
+                    </th>
+                    <td>
+                        <div class="list">
+                            <li class="list-li align-center" style="padding: 20px;">5157590</li>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        <div class="list">
+                            <li class="list-li" style="padding: 20px; margin-right: 10px;">Professor: </li>
+                        </div>
+                    </th>
+                    <td>
+                        <div class="list">
+                            <li class="list-li align-center" style="padding: 20px;">Joabe Fuzaro</li>
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <br>
+        <div>
+            <h2>Opções</h2>
+            <div class="list" style="width: 40%;">
+                <li onclick="removePreferences()" class="list-li align-center cursor-pointer">Limpar Preferências</li>
+            </div>
+        </div>
+
+    </main>
+
+</body>
+
+</html>

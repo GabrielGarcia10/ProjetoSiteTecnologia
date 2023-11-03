@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <script src="js/script.js"></script>
+    <!--Contornar bug visual da rederização de alguns navegadores-->
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!---->
+    <link id="stylePage" rel="stylesheet" type="text/css" href="css/styleDark.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artigos | TechLink</title>
+</head>
+
+<body>
+    <!-- Menu Superior -->
+    <nav>
+        <div class="nav-layer1">
+            <a href="index.html"><img src="imagens/Logo.png" alt="Imagem Logo" />TechLink</a>
+            <div class="nav-reverse">
+                <div class="btn-navHamburguer" onclick="btn_navHamburguerClickEvent(this)">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>        
+                </div>
+            </div>
+        </div>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="artigos.html" style="text-decoration: overline;">Artigos</a></li>
+            <li><a href="sobre.html">Sobre</a></li>
+        </ul>
+        <div class="nav-reverse nav-interno">
+            <div id="switch_theme" class="switch-toggle">
+                <label for="switch_theme_light"><input onclick="switch_themeClickEvent()" name="switch_theme" id="switch_theme_light" value="L" type="radio">Light</label>
+                <label for="switch_theme_auto"><input onclick="switch_themeClickEvent()" name="switch_theme" id="switch_theme_auto" value="A" type="radio" checked>Auto</label>
+                <label for="switch_theme_dark"><input onclick="switch_themeClickEvent()" name="switch_theme" id="switch_theme_dark" value="D" type="radio">Dark</label>
+            </div>
+        </div>
+    </nav>
+    <!-- Menu Superior -->
+
+    <!-- Página -->
+    <main>
+
+        <h1>Últimos artigos</h1>
+
+        <div class="list">
+            <a href="artigos/review-intel-core-i5-13400.html">
+                <!-- Item da Lista -->
+                <li class="list-li">
+                    <div>
+                        <!-- Imagem -->
+                        <div class="list-li-img">
+                            <img src="imagens/intel-core-i5-13400/intel-core-i5-13400-review-adrenaline-01.webp">
+                        </div>
+                        <div class="list-li-body">
+                            <!-- Titulo -->
+                            <div class="list-li-title">
+                                REVIEW | Intel Core i5-13400 precisa custar menos que o Ryzen 5 7600 para valer a pena
+                            </div>
+
+                            <!-- Descrição -->
+                            <div class="list-li-description">
+                                Tirando alguns testes multicores, o processador da Intel não é páreo pro Ryzen 5 7600
+                            </div>
+
+                            <!-- Informações extras -->
+                            <div class="list-li-extra">
+                                <div>19/03/2023 10:20</div>
+                                <div>update 19/03/23 10:21</div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Previa assunto -->
+                    <div class="list-li-subject">
+                        Esta é a análise/review dos processadores Intel Core i5-13400 e 13400F, modelos intermediários
+                        da Intel
+                        focados nos consumidores que buscam "o meio do caminho" no line-up da empresa, com bom nível de
+                        performance
+                        para games e também para aplicações profissionais, mas com um preço mais competitivo que
+                        processadores
+                        "final K".
+                    </div>
+                </li>
+            </a>
+
+            <a href="artigos/o-que-e-memoria-ram.html">
+                <!-- Item da Lista -->
+                <li class="list-li">
+                    <div>
+                        <!-- Imagem -->
+                        <div class="list-li-img">
+                            <img src="imagens/memoria-ram/CHAMADA-RM.webp">
+                        </div>
+                        <div class="list-li-body">
+                            <!-- Titulo -->
+                            <div class="list-li-title">
+                                O que é memória RAM?
+                            </div>
+
+                            <!-- Descrição -->
+                            <div class="list-li-description">
+                                Saiba para que serve, como funciona e os tipos de memória RAM
+                            </div>
+
+                            <!-- Informações extras -->
+                            <div class="list-li-extra">
+                                <div>24/02/2023 14:00</div>
+                                <div>update 20/03/23 13:12</div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Previa assunto -->
+                    <div class="list-li-subject">
+                        A ASUS anunciou, no inicio de março, uma placa-mãe com a maioria dos conectores na parte de
+                        baixo do corpo da placa, gerando muita curiosidade pelo impacto que esse tipo de modificação
+                        pode ter. Nessa semana apareceram modelos de mainboards da MSI com o mesmo conceito.
+                    </div>
+                </li>
+            </a>
+
+            <a href="artigos/placas-mae-com-conectores-na-parte-de-baixo.html">
+                <!-- Item da Lista -->
+                <li class="list-li">
+                    <div>
+                        <!-- Imagem -->
+                        <div class="list-li-img">
+                            <img src="imagens/placa-mae/ASUS-CASE-DIY-APE-CASE-installed.webp">
+                        </div>
+                        <div class="list-li-body">
+                            <!-- Titulo -->
+                            <div class="list-li-title">
+                                Placas-mãe com conectores na parte de baixo vão mudar o visual de computadores desktop
+                            </div>
+
+                            <!-- Descrição -->
+                            <div class="list-li-description">
+                                Asus e MSI produzem primeiros modelos de mainboards com conectores na parte de trás
+                            </div>
+
+                            <!-- Informações extras -->
+                            <div class="list-li-extra">
+                                <div>14/03/2023 17:06</div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Previa assunto -->
+                    <div class="list-li-subject">
+                        A ASUS anunciou, no inicio de março, uma placa-mãe com a maioria dos conectores na parte de
+                        baixo do corpo da placa, gerando muita curiosidade pelo impacto que esse tipo de modificação
+                        pode ter. Nessa semana apareceram modelos de mainboards da MSI com o mesmo conceito.
+                    </div>
+                </li>
+            </a>
+
+            <a href="artigos/quando-formatar-o-pc-e-notebook.html">
+                <!-- Item da Lista -->
+                <li class="list-li">
+                    <div>
+                        <!-- Imagem -->
+                        <div class="list-li-img">
+                            <img src="imagens/quando-formatar-o-pc/CHAMADA-WW.webp">
+                        </div>
+                        <div class="list-li-body">
+                            <!-- Titulo -->
+                            <div class="list-li-title">
+                                Quando formatar o PC e notebook?
+                            </div>
+
+                            <!-- Descrição -->
+                            <div class="list-li-description">
+                                Conheça alguns sinais de que está na hora de formatar o computador e notebook
+                            </div>
+
+                            <!-- Informações extras -->
+                            <div class="list-li-extra">
+                                <div>02/03/2023 18:00</div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Previa assunto -->
+                    <div class="list-li-subject">
+                        Depois de algum tempo de uso, um processo indicado para otimizar o desempenho do PC é a formatar
+                        o
+                        computador. De maneira geral, formatar o PC com Windows é um jeito de renovar completamente o
+                        sistema
+                        operacional e, por isso, o procedimento é indicado como solução de diversos problemas em
+                        desktops e
+                        notebooks. Uma dúvida possível na cabeça dos usuários, no entanto, é: quando formatar o
+                        computador?
+                    </div>
+                </li>
+            </a>
+
+            <a href="artigos/como-formatar-o-pc-com-windows.html">
+                <!-- Item da Lista -->
+                <li class="list-li">
+                    <div>
+                        <!-- Imagem -->
+                        <div class="list-li-img">
+                            <img src="imagens/como-formatar-o-pc-com-windows/como-formatear-um-notebokk.jpg">
+                        </div>
+                        <div class="list-li-body">
+                            <!-- Titulo -->
+                            <div class="list-li-title">
+                                Como formatar o PC com Windows?
+                            </div>
+
+                            <!-- Descrição -->
+                            <div class="list-li-description">
+                                Veja o passo a passo de como formatar e instalar o Windows no computador
+                            </div>
+
+                            <!-- Informações extras -->
+                            <div class="list-li-extra">
+                                <div>28/02/2023 19:10</div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Previa assunto -->
+                    <div class="list-li-subject">
+                        Formatar o PC consiste no processo de apagar todos os arquivos do computador, incluindo o
+                        sistema operacional, e instalá-lo novamente. Apesar de ser conhecido, o procedimento é um
+                        desafio considerável para o público menos entendido. Por isso, o Adrenaline resolveu montar um
+                        passo a passo de como formatar o computador, instalando o Windows ao final do processo.
+                    </div>
+                </li>
+            </a>
+
+            <a href="artigos/mesma-linha-diferentes-gpus-comparamos-as-rtx-40-asus-rog-strix.html">
+                <!-- Item da Lista -->
+                <li class="list-li">
+                    <div>
+                        <!-- Imagem -->
+                        <div class="list-li-img">
+                            <img
+                                src="imagens/mesma-linha-diferentes-gpus-comparamos-as-rtx-40-asus-rog-strix/maxresdefault.jpg">
+                        </div>
+                        <div class="list-li-body">
+                            <!-- Titulo -->
+                            <div class="list-li-title">
+                                Mesma linha, diferentes GPUs! Comparamos as RTX 40 ASUS ROG Strix!
+                            </div>
+
+                            <!-- Descrição -->
+                            <div class="list-li-description">
+                                Como um mesmo projeto dimensiona para diferentes chips gráficos
+                            </div>
+
+                            <!-- Informações extras -->
+                            <div class="list-li-extra">
+                                <div>19/02/2023 14:05</div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Previa assunto -->
+                    <div class="list-li-subject">
+                        Hoje nós vamos fazer um comparativo diferente. Normalmente colocamos diferentes chips gráficos
+                        para comparar a o desempenho entre múltiplas opções do mercado, ou marcas rivais para ver qual
+                        se sai melhor em performance. Hoje nós vamos ter três modelos da série GeForce RTX 40, mas com
+                        uma coisa em comum: todas são da mesma linha, a ASUS ROG Strix.
+                    </div>
+                </li>
+            </a>
+
+            <a href="artigos/geforce-gtx-1060-para-hd-testamos-returnal-no-pc.html">
+                <!-- Item da Lista -->
+                <li class="list-li">
+                    <div>
+                        <!-- Imagem -->
+                        <div class="list-li-img">
+                            <img src="imagens/geforce-gtx-1060-para-hd-testamos-returnal-no-pc/maxresdefault.jpg">
+                        </div>
+                        <div class="list-li-body">
+                            <!-- Titulo -->
+                            <div class="list-li-title">
+                                GeForce GTX 1060 para HD? Testamos Returnal no PC!
+                            </div>
+
+                            <!-- Descrição -->
+                            <div class="list-li-description">
+                                Jogamos desde hardwares de entrada até Ray Tracing
+                            </div>
+
+                            <!-- Informações extras -->
+                            <div class="list-li-extra">
+                                <div>15/02/2023 19:05</div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Previa assunto -->
+                    <div class="list-li-subject">
+                        Seguindo o caminho de vários exclusivos do Playstation, Returnal também desembarca (ou faz um
+                        pouso de emergência) no PC para a alegria dos fãs de ficção científica, games com muita ação,
+                        jogos do tipo roguelike ou mesmo uma mistura das três coisas. Testamos o jogo para ver como ele
+                        chega no PC, seja em tecnologias, recursos exclusivos e performance.
+                    </div>
+                </li>
+            </a>
+
+        </div>
+
+    </main>
+
+</body>
+
+</html>

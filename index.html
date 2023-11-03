@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <script src="js/script.js"></script>
+    <!--Contornar bug visual da rederização de alguns navegadores-->
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!---->
+    <link id="stylePage" rel="stylesheet" type="text/css" href="css/styleDark.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | TechLink</title>
+</head>
+
+<body>
+    <!-- Menu Superior -->
+    <nav>
+        <div class="nav-layer1">
+            <a href="index.html"><img src="imagens/Logo.png" alt="Imagem Logo" />TechLink</a>
+            <div class="nav-reverse">
+                <div class="btn-navHamburguer" onclick="btn_navHamburguerClickEvent(this)">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>        
+                </div>
+            </div>
+        </div>
+        <ul>
+            <li><a href="index.html" style="text-decoration: overline;">Home</a></li>
+            <li><a href="artigos.html">Artigos</a></li>
+            <li><a href="sobre.html">Sobre</a></li>
+        </ul>
+        <div class="nav-reverse nav-interno">
+            <div id="switch_theme" class="switch-toggle">
+                <label for="switch_theme_light"><input onclick="switch_themeClickEvent()" name="switch_theme" id="switch_theme_light" value="L" type="radio">Light</label>
+                <label for="switch_theme_auto"><input onclick="switch_themeClickEvent()" name="switch_theme" id="switch_theme_auto" value="A" type="radio" checked>Auto</label>
+                <label for="switch_theme_dark"><input onclick="switch_themeClickEvent()" name="switch_theme" id="switch_theme_dark" value="D" type="radio">Dark</label>
+            </div>
+        </div>
+    </nav>
+    <!-- Menu Superior -->
+
+    <!-- Página -->
+    <main style="padding: 0;">
+        <h1>Em Alta:</h1>
+        <div class="list-em-alta">
+            
+                <div class="img-link-home">
+                    <a href="artigos/mesma-linha-diferentes-gpus-comparamos-as-rtx-40-asus-rog-strix.html">
+                        <img src="imagens/mesma-linha-diferentes-gpus-comparamos-as-rtx-40-asus-rog-strix/maxresdefault.jpg"
+                            alt="Imagem windows, como formatar o pc ou notebook">
+                        <div>
+                            <div class="img-link-title">
+                                Mesma linha, diferentes GPUs! Comparamos as RTX 40 ASUS ROG Strix!</div>
+                            <div class="img-link-text">Como um mesmo projeto dimensiona para diferentes chips gráficos</div>
+                        </div>
+                    </a>
+                </div>
+            
+                <div class="img-link-home">
+                    <a href="artigos/review-intel-core-i5-13400.html">
+                        <img src="imagens/intel-core-i5-13400/intel-core-i5-13400-review-adrenaline-01.webp"
+                            alt="Imagem windows, como formatar o pc ou notebook">
+                        <div>
+                            <div class="img-link-title">
+                                REVIEW | Intel Core i5-13400 precisa custar menos que o Ryzen 5 7600 para valer a pena </div>
+                            <div class="img-link-text">Tirando alguns testes multicores, o processador da Intel não é páreo pro Ryzen 5 7600 </div>
+                        </div>
+                    </a>
+                </div>
+        </div>
+
+        <div class="list">
+            <a class="link" href="artigos.html">
+                <li class="list-li" style="margin-left: 30vw; margin-right: 30vw;"><div class="align-center text-size-large" style="margin-top: 10px;">Ver Mais</div></li>
+            </a>
+        </div>
+
+    </main>
+
+</body>
+
+</html>
