@@ -1,2 +1,2 @@
 # ProjetoSiteTecnologia
-Um projeto de modelo de site de tecnologia, feito em um trabalho de faculdade.
+Um projeto de modelo de site de tecnologia, executado em um trabalho de faculdade.
